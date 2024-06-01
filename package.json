@@ -1,0 +1,16 @@
+{
+  "name": "cicdtesting",
+  "version": "1.0.0",
+  "description": "Integrating CI CD with test so they run before merging any pull request to the main branch and making the tests for the code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "ts-jest": "^29.1.4"
+  }
+}
